@@ -1,0 +1,34 @@
+.header {
+    background: url(https://res.cloudinary.com/matehc/image/upload/v1615978765/Stutern/Week5%28css%29/joshua-oluwagbemiga-yGV8K_1gXuw-unsplash_cwfri5.jpg);
+    background-repeat: no-repeat;
+    margin-top: 0;
+    height: 100vh;
+    padding-top: 1.25rem;
+    background-size: cover;
+    overflow:hidden;
+}
+
+.logo {
+    margin-right: 50%;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+.nav__list {
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__hero {
+    font-size: 2.7rem;
+}
+
+.position {
+    position: absolute;
+    top: 290px;
+    left: 20px
+}

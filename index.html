@@ -6,142 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <!-- <link rel="stylesheet" href="header.css"> -->
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="" class="logo">LO</a>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">My Portfolio</a>
-            <a href="">Resume</a>
-            <a href="">Contact</a>
+    <header class="header">
+        
+
+        <nav class="nav">
+            <a href="" class="logo unlink">LO</a>
+            <a href="" class="nav__list unlink">Home</a>
+            <a href="" class="nav__list unlink">About</a>
+            <a href="" class="nav__list unlink">My Portfolio</a>
+            <a href="" class="nav__list unlink">Resume</a>
+            <a href="" class="nav__list unlink">Contact</a>
         </nav>
         
-        <h1>I'm Lucas Okafor <br> Front-end Developer</h1>
+        <h1 class="header__hero position">I'm Lucas Okafor <br>A Front-end Developer</h1>
     </header>
 
     <main>
         <!-- Bio Section Begins here -->
-        <section class="sec-block bio">
-            <img src="https://res.cloudinary.com/matehc/image/upload/v1615978762/Stutern/Week5%28css%29/joshua-oluwagbemiga-e8SfJb-Uyok-unsplash_fugxxf.jpg" alt="a photo of lucas okafor">
+        <section class="bio">
+            <!-- <img src="https://res.cloudinary.com/matehc/image/upload/v1615978762/Stutern/Week5%28css%29/joshua-oluwagbemiga-e8SfJb-Uyok-unsplash_fugxxf.jpg" alt="a photo of lucas okafor" class="bio__img"> -->
             
-            <div class="bio-block">
-                <div class="bio-block--about">
-                    <h2>My Bio</h2>
-                    <p> I am Lucas Chetam Okafor, a graduate of the university of port harcourt. I'm Currently working as an it suppourt specialist and also hold a CompTIA A+ certification.
+            <div class="bio__wrapper">
+                <div class="bio__content">
+                    <h2 class="bio__h2">My Bio</h2>
+                    <p class="bio__p"> I am Lucas Chetam Okafor, a graduate of the university of port harcourt. I'm Currently working as an it suppourt specialist and also hold a CompTIA A+ certification.
                     
                         My interest includes learning everything I can in web Developement.
                         
                         I also enjoy listening to musics, surfing the web for educational materials I might not read and watching science fiction and fantasy movies.</p>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorem est hic ipsum vitae. Vero recusandae quibusdam quis fuga laboriosam sit, obcaecati explicabo, perferendis tempora dolorem, praesentium nulla? Eaque, adipisci.</p> -->
                 </div>
-               <div class="bio-block--progress">
-                   <div class="progress-block p-html">
+               <div class="progress">
+                   <div class="progress__wrapper p-html">
                     <h3>HTML5</h3>
                     <progress value="90" max="100"></progress>
                    </div>
 
-                   <div class="progress-block p-css">
+                   <div class="progress__wrapper p-css">
                     <h3>CSS</h3>
                     <progress value="50" max="100"></progress>
                    </div>
                    
-                   <div class="progress-block p-js">
+                   <div class="progress__wrapper p-js">
                     <h3>JavaScript</h3>
                     <progress value="50" max="100"></progress>
                    </div>
                </div>
             </div>
-            <div class="btn-box">
-                <button class="btn bio-btn">Hire me</button>
-                <button class="btn bio-btn">Download CV</button>
+            <div class="btn__wrapper">
+                <button class="btn bio__btn">Hire me</button>
+                <button class="btn bio__btn">Download CV</button>
             </div>
         </section>
 
         <!-- My portfolio section begins here -->
-        <section class="sec-block portfolio">
-            <h2 class="sec-block-heading">My Portfolio</h2>
-            <img src="" alt="portfolio-1">
-            <img src="" alt="portfolio-2">
-            <img src="" alt="portfolio-3">
-            <img src="" alt="portfolio-4">
-            <img src="" alt="portfolio-5">
-            <img src="" alt="portfolio-6">
+        <section class="portfolio">
+            <h2 class="portfolio__title">My Portfolio</h2>
+            <img src="" class="portfolio__img" alt="portfolio-1">
+            <img src="" class="portfolio__img" alt="portfolio-2">
+            <img src="" class="portfolio__img" alt="portfolio-3">
+            <img src="" class="portfolio__img" alt="portfolio-4">
+            <img src="" class="portfolio__img" alt="portfolio-5">
+            <img src="" class="portfolio__img" alt="portfolio-6">
         </section>
 
         <!-- Services section begins here -->
-        <section class="sec-block services">
-            <h2 class="sec-block-heading">Services</h2>
-            <div class="service-box">
-                <h3 class="service--box__head">Development</h3>
+        <section class="services">
+            <h2 class="services__heading">Services</h2>
+            <div class="services-wrapper">
+                <h3 class="services__title">Development</h3>
                 <span class="material-icons">
                     important_devices
                 </span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit rerum labore aperiam expedita nisi eum, explicabo, dolorem maiores necessitatibus fuga aliquam sit doloribus perferendis similique, iure nesciunt dolorum tempore reiciendis.</p>
+                <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit rerum labore aperiam expedita nisi eum, explicabo, dolorem maiores necessitatibus fuga aliquam sit doloribus perferendis similique, iure nesciunt dolorum tempore reiciendis.</p>
             </div>
-            <div class="service-box">
-                <h3 class="service--box__head">Design</h3>
+            <div class="services-wrapper">
+                <h3 class="services__heading">Design</h3>
                 <span class="material-icons">
                     radio_button_checked
                 </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique nulla non dignissimos placeat, molestiae aliquid earum hic excepturi impedit perferendis neque delectus dolor est, repellat quia corporis illo sed tenetur?</p>
+                <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique nulla non dignissimos placeat, molestiae aliquid earum hic excepturi impedit perferendis neque delectus dolor est, repellat quia corporis illo sed tenetur?</p>
             </div>
-            <div class="service-box">
-                <h3 class="service--box__head">eCommerce</h3>
+            <div class="services-wrapper">
+                <h3 class="services__heading">eCommerce</h3>
                 <span class="material-icons">
                     storefront
                 </span>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit maxime eos perspiciatis accusamus. Ab, labore explicabo, harum laboriosam earum non culpa esse suscipit facere, maiores adipisci iste voluptas perferendis soluta?</p>
+                <p class="services__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit maxime eos perspiciatis accusamus. Ab, labore explicabo, harum laboriosam earum non culpa esse suscipit facere, maiores adipisci iste voluptas perferendis soluta?</p>
             </div>
         </section>
 
 
         <!-- Resume section begins here -->
         <section class="resume">
-            <h2 class="sec-block-heading">Resume</h2>
-            <img src="" alt="a photo of lucas working with his pc">
-            <div class="experience-box">
-                <h3>Work experience</h3>
-                <div class="worked">
-                    <div class="rolePlace-box">
-                        <p>Senior Front-end Developer</p>
-                        <div class="place">
-                            <span class="material-icons">
+            <h2 class="resume__heading">Resume</h2>
+            <img src="" class="resume__img" alt="a photo of lucas working with his pc">
+            <div class="experience">
+                <h3 class="experience__title">Work experience</h3>
+                <div class="experience__wrapper">
+                    <div class="company">
+                        <p class="company__role">Senior Front-end Developer</p>
+                        <div class="company__wrapper">
+                            <span class="material-icons company__icon">
                                 domain
                             </span>
-                            <span class="worked-place">Facebook, inc.</span>
+                            <span class="company__name">Facebook, inc.</span>
 
-                            <span class="material-icons">
+                            <span class="material-icons company__icon">
                                 place
                             </span>
-                            <span class="worked-location">San, francisco</span>
+                            <span class="company__location">San, francisco</span>
                         </div>
                     </div>
 
                     <div class="timeline">
-                        <span class="work-type">Fulltime</span>
-                        <span class="work-duration">January 2020 - Present</span>
+                        <span class="timeline__type">Fulltime</span>
+                        <span class="timeline__duration">January 2020 - Present</span>
                     </div>
 
                     
                 </div>
 
                 <!-- second work place -->
-                <div class="worked">
-                    <div class="rolePlace-box">
-                        <p>Front-end Engineer</p>
-                        <div class="place">
-                            <span class="material-icons">
+                <div class="experience__wrapper">
+                    <div class="company">
+                        <p class="company__role">Front-end Engineer</p>
+                        <div class="company__wrapper>
+                            <span class="material-icons company__icon">
                                 domain
                             </span>
-                            <span class="worked-place">Interswitch</span>
+                            <span class="company__name">Interswitch</span>
 
-                            <span class="material-icons">
+                            <span class="material-icons company__icon">
                                 place
                             </span>
-                            <span class="worked-location">Lagos, Nigeria</span>
+                            <span class="company__location">Lagos, Nigeria</span>
                         </div>
                     </div>
 
@@ -151,19 +156,19 @@
                     </div>                    
                 </div>
 
-                <div class="worked">
-                    <div class="rolePlace-box">
-                        <p>Lead Front-end Engineer</p>
-                        <div class="place">
-                            <span class="material-icons">
+                <div class="experience__wrapper">
+                    <div class="company">
+                        <p class="company__role">Lead Front-end Engineer</p>
+                        <div class="company__location">
+                            <span class="material-icons company__icon">
                                 domain
                             </span>
-                            <span class="worked-place">Century Group.</span>
+                            <span class="company__name">Century Group.</span>
 
-                            <span class="material-icons">
+                            <span class="material-icons company__icon">
                                 place
                             </span>
-                            <span class="worked-location">Port Harcourt, Nigeria</span>
+                            <span class="company__location">Port Harcourt, Nigeria</span>
                         </div>
                     </div>
 
@@ -173,19 +178,19 @@
                     </div>
 
 
-                    <div class="worked">
-                        <div class="rolePlace-box">
-                            <p>IT Support</p>
-                            <div class="place">
-                                <span class="material-icons">
+                    <div class="experience__wrapper">
+                        <div class="company">
+                            <p class="company__role">IT Support</p>
+                            <div class="company__location">
+                                <span class="material-icons company__icon">
                                     domain
                                 </span>
-                                <span class="worked-place">Wonderland, inc.</span>
+                                <span class="company__name">Wonderland, inc.</span>
     
-                                <span class="material-icons">
+                                <span class="material-icons company__icon">
                                     place
                                 </span>
-                                <span class="worked-location">Lagos, Nigeria</span>
+                                <span class="company__location">Lagos, Nigeria</span>
                             </div>
                         </div>
     
@@ -201,60 +206,60 @@
 
 <!-- Contact Section begins here -->
         <section class="contact">
-            <div class="form-box">
-                <form action="">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname">
+            <div class="contact__box">
+                <form action="" class="contact__form">
+                    <label for="fname" class="contact__label">First Name</label>
+                    <input type="text" id="fname" name="fname"  class="contact__input">
 
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname">
+                    <input type="text" id="lname" name="lname" class="contact__input">
                     <br>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <label for="email" class="contact__label">Email</label>
+                    <input type="email" id="email" name="email" class="contact__input">
 
                     <br>
-                    <label for="msg"></label>
-                    <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                    <label for="msg" class="contact__label"></label>
+                    <textarea name="msg" id="" cols="30" rows="10" class="contact__textarea"></textarea>
                 </form>
             </div>
-            <div class="address-box">
-                <h3>Contact Info</h3>
-                <p>
-                    <span class="material-icons">
+            <div class="contact__box">
+                <h3 class="contact__title">Contact Info</h3>
+                <p class="contact__wrapper">
+                    <span class="material-icons contact__icon">
                         place
                     </span>
-                    <span>35 wierd street, off evo road. Port Harcourt, Nigeria</span>
+                    <span class="contact_address">35 wierd street, off evo road. Port Harcourt, Nigeria</span>
                 </p>
 
-                <p>
-                    <span class="material-icons">
+                <p class="contact__wrapper">
+                    <span class="material-icons contact__icon">
                         tty
-                    </span><a href="tel://070116260834">+23470116260834</a>
+                    </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>
                 </p>
 
-                <p>
-                    <span class="material-icons">
+                <p class="contact__wrapper">
+                    <span class="material-icons contact__icon">
                         tty
-                    </span><a href="tel://070116260834">+23470116260834</a>               
+                    </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>               
                  </p>
                 
                 
-                <p>
-                    <span class="material-icons">
+                <p class="contact__wrapper">
+                    <span class="material-icons contact__icon">
                         local_post_office
-                    </span><a href="mailto:lucas@yourservice.com">lucas@yourservice.com</a>
+                    </span><a class="contact__email" href="mailto:lucas@yourservice.com">lucas@yourservice.com</a>
                 </p>
                     
-                <P>
-                    <span class="material-icons">
+                <P class="contact__wrapper">
+                    <span class="material-icons contact__icon">
                         public
-                    </span><a href="https://lucasokafor.me">https://lucasokafor.me</a>
+                    </span><a class="contact__domain" href="https://lucasokafor.me">https://lucasokafor.me</a>
                 </P>
             </div>
         </section>
     </main>
-    <footer>
-        <p>Copyright ©2021 All rights reserved</p>
+    <footer class="footer">
+        <p class="footer__content">Copyright ©2021 All rights reserved</p>
     </footer>
 </body>
 </html>
