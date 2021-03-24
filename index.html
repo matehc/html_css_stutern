@@ -8,6 +8,7 @@
       rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/bio.css">
 
     <title>Document</title>
 </head>
@@ -30,12 +31,12 @@
     <main>
         <!-- Bio Section Begins here -->
         <section class="bio">
-            <!-- <img src="https://res.cloudinary.com/matehc/image/upload/v1615978762/Stutern/Week5%28css%29/joshua-oluwagbemiga-e8SfJb-Uyok-unsplash_fugxxf.jpg" alt="a photo of lucas okafor" class="bio__img"> -->
+            <img src="https://res.cloudinary.com/matehc/image/upload/v1615978762/Stutern/Week5%28css%29/joshua-oluwagbemiga-e8SfJb-Uyok-unsplash_fugxxf.jpg" alt="a photo of lucas okafor" class="bio__img">
             
             <div class="bio__wrapper">
                 <div class="bio__content">
-                    <h2 class="bio__h2">My Bio</h2>
-                    <p class="bio__p"> I am Lucas Chetam Okafor, a graduate of the university of port harcourt. I'm Currently working as an it suppourt specialist and also hold a CompTIA A+ certification.
+                    <h2 class="bio__title">My Bio</h2>
+                    <p class="bio__description"> I am Lucas Chetam Okafor, a graduate of the university of port harcourt. I'm Currently working as an it suppourt specialist and also hold a CompTIA A+ certification.
                     
                         My interest includes learning everything I can in web Developement.
                         
@@ -44,25 +45,27 @@
                 </div>
                <div class="progress">
                    <div class="progress__wrapper p-html">
-                    <h3>HTML5</h3>
-                    <progress value="90" max="100"></progress>
+                    <h3 class="progress__title">HTML5</h3>
+                    <progress value="90" max="100" class="progress__bar"></progress>
                    </div>
 
                    <div class="progress__wrapper p-css">
-                    <h3>CSS</h3>
-                    <progress value="50" max="100"></progress>
+                    <h3 class="progress__title">CSS</h3>
+                    <progress value="50" max="100" class="progress__bar"></progress>
                    </div>
                    
                    <div class="progress__wrapper p-js">
-                    <h3>JavaScript</h3>
-                    <progress value="50" max="100"></progress>
+                    <h3 class="progress__title">JavaScript</h3>
+                    <progress value="50" max="100" class="progress__bar"></progress>
                    </div>
                </div>
+
+                <div class="btn__wrapper">
+                    <button class="c bio__btn">Hire me</button>
+                    <button class="bio__btn bio__btn">Download CV</button>
+                </div>
             </div>
-            <div class="btn__wrapper">
-                <button class="btn bio__btn">Hire me</button>
-                <button class="btn bio__btn">Download CV</button>
-            </div>
+            
         </section>
 
         <!-- My portfolio section begins here -->
