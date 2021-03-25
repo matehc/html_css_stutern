@@ -1,0 +1,46 @@
+.bio {
+    display: flex;
+    padding: 100px;
+}
+
+.bio__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.bio__img {
+    width: 520px;
+    /* width: 560px; */
+}
+.bio__wrapper {
+    padding: 20px 50px;
+}
+
+.progress {
+    padding: 20px 0;
+}
+
+
+.progress__title {
+    font-weight: 400;
+}
+
+.progress__bar {
+    width: 100%;
+}
+
+.btn__wrapper {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio__btn {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ccc;
+    background-color: #000;
+}
