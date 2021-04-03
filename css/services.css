@@ -1,0 +1,42 @@
+.services {
+    padding: 0 100px 50px;
+}
+
+.services__heading {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.services__container {
+    display: flex;
+    align-content: center;
+}
+.service-icons {
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    color: #834802;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.services-wrapper p {
+    text-align: center;
+}
+
+.services-wrapper h3 {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.services__container :first-of-type{
+    margin-left: 0;
+}
