@@ -1,10 +1,19 @@
 .services {
-    padding: 0 100px 50px;
+    padding: 0 50px 50px;
 }
+
+
 
 .services__heading {
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
+}
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .services__container {
@@ -14,7 +23,7 @@
 .service-icons {
     text-align: center;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #834802;
 }
 
@@ -34,7 +43,7 @@
 
 .services-wrapper h3 {
     font-size: .9rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .services__container :first-of-type{
