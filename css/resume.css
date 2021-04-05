@@ -1,0 +1,107 @@
+/* .resume {
+    padding: 100px;
+}
+
+.resume__wrapper{
+    display: flex;
+}
+
+.resume__img {
+    width: 520px;
+
+}
+
+.resume__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.experience__title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+}
+
+.experience__wrapper {
+    display:flex;
+    justify-content: space-between;
+}
+
+.company__role {
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+.timeline__type {
+    display: block;
+}
+.company__role, 
+.timeline__type {
+    padding: 10px 0;
+}
+
+.t-color {
+    color: #bbb;
+    font: lighter;
+    font-size: .8rem;
+} */
+
+
+
+.resume {
+    padding: 0 100px 50px;
+}
+
+.resume__wrapper{
+    display: flex;
+}
+
+.resume__img {
+    width: 350px;
+    height: auto;
+    display: block;
+}
+
+.resume__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.experience__wrapper {
+    display:flex;
+    padding: 20px 20px 10px 0;
+
+    margin: 20px;
+    border-bottom: 1px solid #bbb;
+}
+
+.experience__title {
+    padding-left: 20px;
+}
+
+.company {
+    width: 50%;
+}
+
+.company__role {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.timeline__wrapper {
+    margin-left: 75px;
+}
+
+.block-it {
+    display: block;
+}
+
+.t-color {
+    color: #bbb;
+    font: lighter;
+    font-size: .85rem;
+}
