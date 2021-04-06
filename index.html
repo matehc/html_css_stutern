@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <title>Document</title>
 </head>
@@ -263,56 +264,69 @@
 
 <!-- Contact Section begins here -->
         <section class="contact">
-            <div class="contact__box">
-                <form action="" class="contact__form">
-                    <label for="fname" class="contact__label">First Name</label>
-                    <input type="text" id="fname" name="fname"  class="contact__input">
+            <h3 class="contact__title">Contact Info</h3>
+            <div class="contact__container">
+                <div class="contact__box form__box">
+                    <form action="" class="contact__form">
+                        <div class="input__wrapper name-wrapper">
+                            <label for="fname" class="contact__label">First Name</label>
+                            <input type="text" id="fname" name="fname"  class="contact__input">
+                        </div>
+                        
+    
+                        <div class="input__wrapper name-wrapper">
+                            <label for="lname" class="contact__label">Last Name</label>
+                            <input type="text" id="lname" name="lname" class="contact__input">
+                        </div>
 
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname" class="contact__input">
-                    <br>
-                    <label for="email" class="contact__label">Email</label>
-                    <input type="email" id="email" name="email" class="contact__input">
-
-                    <br>
-                    <label for="msg" class="contact__label"></label>
-                    <textarea name="msg" id="" cols="30" rows="10" class="contact__textarea"></textarea>
-                </form>
-            </div>
-            <div class="contact__box">
-                <h3 class="contact__title">Contact Info</h3>
-                <p class="contact__wrapper">
-                    <span class="material-icons contact__icon">
-                        place
-                    </span>
-                    <span class="contact_address">35 wierd street, off evo road. Port Harcourt, Nigeria</span>
-                </p>
-
-                <p class="contact__wrapper">
-                    <span class="material-icons contact__icon">
-                        tty
-                    </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>
-                </p>
-
-                <p class="contact__wrapper">
-                    <span class="material-icons contact__icon">
-                        tty
-                    </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>               
-                 </p>
-                
-                
-                <p class="contact__wrapper">
-                    <span class="material-icons contact__icon">
-                        local_post_office
-                    </span><a class="contact__email" href="mailto:lucas@yourservice.com">lucas@yourservice.com</a>
-                </p>
+                        <div class="input__wrapper email__wrapper">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" id="email" name="email" class="contact__input">
+                        </div>
+                        <br>
                     
-                <P class="contact__wrapper">
-                    <span class="material-icons contact__icon">
-                        public
-                    </span><a class="contact__domain" href="https://lucasokafor.me">https://lucasokafor.me</a>
-                </P>
-            </div>
+                        <br>
+                        <div class="input__wrapper">
+                            <label for="msg" class="contact__label">Message</label>
+                            <textarea name="msg" id="" cols="30" rows="10" class="contact__textarea"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact__box contact__info">
+                    <h3 class="contact__info-title">Contact Info</h3>
+                    <p class="contact__wrapper address">
+                        <span class="material-icons contact__icon">
+                            place
+                        </span>
+                        <span class="contact_address">35 wierd street, off evo road. Port Harcourt, Nigeria</span>
+                    </p>
+    
+                    <p class="contact__wrapper">
+                        <span class="material-icons contact__icon">
+                            tty
+                        </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>
+                    </p>
+    
+                    <p class="contact__wrapper">
+                        <span class="material-icons contact__icon">
+                            tty
+                        </span><a class="contact__telephone" href="tel://070116260834">+23470116260834</a>               
+                     </p>
+                    
+                    
+                    <p class="contact__wrapper">
+                        <span class="material-icons contact__icon">
+                            local_post_office
+                        </span><a class="contact__email" href="mailto:lucas@yourservice.com">lucas@yourservice.com</a>
+                    </p>
+                        
+                    <P class="contact__wrapper">
+                        <span class="material-icons contact__icon">
+                            public
+                        </span><a class="contact__domain" href="https://lucasokafor.me">https://lucasokafor.me</a>
+                    </P>
+                </div>
+            </div> 
         </section>
     </main>
     <footer class="footer">
