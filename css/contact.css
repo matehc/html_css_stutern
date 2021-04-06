@@ -1,0 +1,102 @@
+.contact{
+    padding: 0 50px 50px;
+}
+
+.contact__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact__container {
+    display: flex;
+}
+
+.contact__box.form__box {
+    width: 60%;
+    padding: 45px;
+}
+
+.name-wrapper {
+    display: inline-block;
+}
+
+.input__wrapper {
+    position: relative;
+    height: 60px;
+}
+
+.contact__label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+#fname, 
+#lname {
+    width: 308px;
+}
+
+#fname {
+    margin-right: 10px;
+}
+
+#email {
+    width: 100%;
+}
+
+input, textarea {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid #bbb;
+    outline: none;
+}
+
+input {
+    height: 40px;
+}
+
+textarea {
+    height: 60px;
+    width: 100%;
+}
+
+.email__wrapper label {
+    padding-top: 20px;
+}
+
+.email__wrapper input {
+    margin-top: 25px;
+}
+
+.contact__info {
+    padding-top: 15px;
+    font-size: .85rem;
+}
+
+.contact__info-title {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.contact__icon{
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding-right: 10px;
+}
+
+.contact__wrapper {
+    margin-bottom: 10px;
+    color: #834802;
+}
+
+.address {
+    color: inherit;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #834802;
+}
